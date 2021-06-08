@@ -1,10 +1,10 @@
 import requests
 
-url = "https://api.meraki.com/api/v1/organizations/646829496481088052/devices"
+url = "https://api.meraki.com/api/v1/organizations/xxxxxxxxxxxxxxxx/devices"
 
 payload={}
 headers = {
-  'X-Cisco-Meraki-API-Key': '2db0c8ddbfcde0ab2602c03ee56f6de0cac34899'
+  'X-Cisco-Meraki-API-Key': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 }
 
 response = requests.request("GET", url, headers=headers, data=payload, verify=False)
