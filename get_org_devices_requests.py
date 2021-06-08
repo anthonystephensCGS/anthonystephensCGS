@@ -1,11 +1,11 @@
 import requests
 import json
 
-url = "https://api.meraki.com/api/v1/organizations/646829496481088052/networks"
+url = "https://api.meraki.com/api/v1/organizations/xxxxxxxxxxxxxxxx/networks"
 
 headers = {
     'accept': "*/*",
-    'x-cisco-meraki-api-key': "2db0c8ddbfcde0ab2602c03ee56f6de0cac34899",
+    'x-cisco-meraki-api-key': "xxxxxxxxxxxxxxxxxxxxxx",
     'cache-control': "no-cache",
     'postman-token': "5203d66a-d14e-dd1b-ecf4-c6c7507918d5"
     }
